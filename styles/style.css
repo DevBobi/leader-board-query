@@ -113,11 +113,11 @@ latest-courses
   media queries
 ---------------- */
 
-@media only screen and(max-width:688px) {
+@media only screen and (max-width:688px) {
     .container{
         width: 100%;
     }
-    .player, .blogs, .courses{
+    .players, .blogs, .courses{
         color: red;
         grid-template-columns: 1fr;
     }
